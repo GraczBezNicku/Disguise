@@ -1,5 +1,5 @@
 # Disguise
-Disguise is and EXILED plugin for SCP:SL letting you disguise as other classes, whilst still retaining your abilites!
+Disguise is an EXILED plugin for SCP:SL letting you disguise as other classes, whilst still retaining your abilites!
 # Permissions
 permission needed to disguise: `disguise`
 # Usage
