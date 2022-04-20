@@ -46,6 +46,8 @@ namespace Disguise.Commands
                 else
                     Plugin.instance.playerDisguised[player] = roleToChangeTo;
 
+                player.DissonanceUserSetup.UpdateForTeam(roleToChangeTo.GetTeam());
+
                 response = "Success!";
                 return false;
             }
