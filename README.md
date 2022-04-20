@@ -24,5 +24,7 @@ Scp93953,
 Scp93989,
 ChaosRifleman,
 ChaosRepressor,
-ChaosMarauder
+ChaosMarauder,
+Scp079,
+Spectator
 ```
