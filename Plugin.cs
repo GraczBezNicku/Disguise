@@ -12,6 +12,11 @@ namespace Disguise
         public static Plugin instance;
         public EventsHandler eventsHandler;
 
+        public override string Name => "Disguise";
+        public override string Author => "GBN";
+        public override Version Version => new Version(1, 0, 0);
+        public override Version RequiredExiledVersion => new Version(5, 1, 3);
+
         public Dictionary<Player, RoleType> playerDisguised = new Dictionary<Player, RoleType>();
 
         public override void OnEnabled()
